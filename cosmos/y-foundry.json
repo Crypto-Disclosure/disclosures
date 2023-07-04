@@ -39,6 +39,23 @@
                         "auditor": "SCV Security",
                         "url": "https://github.com/Y-Foundry-Dao/audits-public/blob/04de3a84efb34a913b32dcc1be7b1852baadb948/Y-Foundry%20DAO%20-%20YFD%20Contracts%20-%20Audit%20Report%20v1.0%20.pdf"
                     }
+                ],
+                "georestrictions": [
+                    {
+                        "Cuba": "CU",
+                        "Iran": "IR",
+                        "North Korea": "KP",
+                        "Syria": "SY",
+                        "Venezuela": "VE",
+                        "Russia": "RU",
+                        "Zimbabwe": "ZW",
+                        "Sudan": "SD",
+                        "American Samoa": "AS",
+                        "Guam": "GU",
+                        "Northern Mariana Islands": "MP",
+                        "Puerto Rico": "PR",
+                        "U.S. Virgin Islands": "VI"
+                      }
                 ]
             }
         ],
