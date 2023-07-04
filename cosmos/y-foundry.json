@@ -16,6 +16,13 @@
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/yfd.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/yfd.svg"
         },
+        "audits": [
+            {
+                "name": "Smart Contract v1.0.0-MVP",
+                "auditor": "SCV Security",
+                "url": "https://github.com/Y-Foundry-Dao/audits-public/blob/04de3a84efb34a913b32dcc1be7b1852baadb948/Y-Foundry%20DAO%20-%20YFD%20Contracts%20-%20Audit%20Report%20v1.0%20.pdf"
+            }
+        ],
         "disclaimers": [
             {
                 "disclaimer": "",
