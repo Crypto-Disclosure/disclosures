@@ -2,6 +2,13 @@
  	"profile": {
  		"name": "Y-Foundry DAO",
         "description": "Propose. Vote. Build.",
+        "tags": [
+            "DAO",
+            "defi",
+            "nft",
+            "cross-chain",
+            "infrastructure"
+        ],
  		"platforms": {
             "website": "https://yfoundry.io",
  			"email": "",
@@ -13,80 +20,145 @@
  			"source": "source.yfoundry.io",
             "brand": "brand.yfoundry.io"
  		},
+
          "logo_URIs": {
             "png": "https://raw.githubusercontent.com/Y-Foundry-Dao/brand-assets/main/contract/juno-1/cw20-yfd.png",
             "svg": "https://raw.githubusercontent.com/Y-Foundry-Dao/brand-assets/main/contract/juno-1/cw20-yfd.svg"
         },
-        "audits": [
+        "documentation": [
             {
-                "name": "Smart Contract v1.0.0-MVP",
-                "auditor": "SCV Security",
-                "url": "https://github.com/Y-Foundry-Dao/audits-public/blob/04de3a84efb34a913b32dcc1be7b1852baadb948/Y-Foundry%20DAO%20-%20YFD%20Contracts%20-%20Audit%20Report%20v1.0%20.pdf"
-            }
-        ],
-        "disclaimers": [
-            {
-                "disclaimer": "",
-                "type": "general"
-            }
-        ],
-        "advisors": [
-            {
-                "Name": "None",
-                "Address": "None",
-                "Allocation": [
+                "disclaimers": [
                     {
-                        "denom": "yfd",
-                        "amount": 0
+                        "disclaimer": "",
+                        "type": "general"
+                    }
+                ],
+                "audits": [
+                    {
+                        "name": "Smart Contract v1.0.0-MVP",
+                        "auditor": "SCV Security",
+                        "url": "https://github.com/Y-Foundry-Dao/audits-public/blob/04de3a84efb34a913b32dcc1be7b1852baadb948/Y-Foundry%20DAO%20-%20YFD%20Contracts%20-%20Audit%20Report%20v1.0%20.pdf"
                     }
                 ]
             }
         ],
-        "contributors": [
+        "assets": [
             {
-                "Name": "None",
-                "Address": "None",
-                "Allocation": [
+                "name": "YFD CW20 Token",
+                "description": "Token used for DAO Governance",
+                "chain-registry": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/assetlist.json",
+                "address": "",
+                "symbol": "yfd",
+                "denom": "yfd",
+                "decimals": 6,
+                "supply_initial": 2000000000000000,
+                "supply_maximum": 2000000000000000,
+                "mintable": false,
+                "inflationary": false,
+                "addresses": [
                     {
-                        "denom": "yfd",
-                        "amount": 0
-                    }
-                ]
-            }
-        ],
-        "backers": [
-            {
-                "Name": "Backer 1",
-                "Address": "None",
-                "Allocation": [
-                    {
-                        "denom": "yfd",
-                        "amount": 0,
-                        "vesting": [
+                        "name": "DAO Treasury",
+                        "description": "Funds used for DAO operations",
+                        "address": "",
+                        "type": "treasury",
+                        "contract": true,
+                        "allocation": [
                             {
-                                "start_time": "2021-01-01T00:00:00Z",
-                                "end_time": "2022-01-01T00:00:00Z",
-                                "cliff_time": "2021-01-01T00:00:00Z",
-                                "cliff_amount": 0,
-                                "rate": 0
+                                "denom": "yfd",
+                                "amount": 600000000000000,
+                                "vesting": [
+                                    { 
+                                        "cliff_time":"2021-01-01T00:00:00Z",
+                                        "cliff_amount": 0,
+                                        "rate": 0,
+                                        "start_time": "2021-01-01T00:00:00Z",
+                                        "end_time": "2022-01-01T00:00:00Z"
+                                    }
+                                ]
                             }
                         ]
+                    },
+                    {
+                        "name": "Airdrop Pool",
+                        "description": "Funds used for Airdrops",
+                        "address": "",
+                        "type": "airdrop",
+                        "contract": true,
+                        "allocation": [
+                            {
+                                "denom": "yfd",
+                                "amount": 2000000000000,
+                                "airdrop": [
+                                    {
+                                        "start_time": "2021-01-01T00:00:00Z",
+                                        "end_time": "2022-01-01T00:00:00Z",
+                                        "rate": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Contributor #1",
+                        "description": "Core Contributor",
+                        "address": "",
+                        "type": "contributor",
+                        "allocation": [
+                            {
+                                "denom": "yfd",
+                                "amount": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Contributor Pool",
+                        "description": "Core Contributor Pool",
+                        "address": "",
+                        "type": "contributor",
+                        "contract": true,
+                        "allocation": [
+                            {
+                                "denom": "yfd",
+                                "amount": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Backer #1",
+                        "description": "Early Backer",
+                        "address": "",
+                        "type": "backer",
+                        "allocation": [
+                            {
+                                "denom": "yfd",
+                                "amount": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Advisor #1",
+                        "description": "Project Advisor",
+                        "address": "",
+                        "type": "advisor",
+                        "allocation": [
+                            {
+                                "denom": "yfd",
+                                "amount": 0
+                            }
+                        ]
+
                     }
                 ]
             }
         ],
- 	},
-    "assets": [
-        {
-            "cosmos": [
-                {
-                    "symbol": "yfd",
-                    "chain-registry": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/assetlist.json",
-                    "supply": 2000000000,
-                    "mintable": false,
-                    "inflationary": false,
-                }
-            ]
-        }
-    ]
+        "blockchain": [
+            { "cosmos:juno-1": [
+                { "contracts": [
+                    {
+                    }
+                ] }
+            ] }
+        ]
+    }
 }
+    
