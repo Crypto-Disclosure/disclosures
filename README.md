@@ -1,5 +1,10 @@
 # disclosures
-Disclosure Repository for Crypto and Blockchain related projects
+Disclosure Data Repository for Crypto and Blockchain related projects
+
+## Purpose
+To provide a centralized location for crypto-related projects to make publicly accessible general, technical, and asset information available using a standardized JSON data schema
+
+## 
 
 Ideas for information to include:
 
