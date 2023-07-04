@@ -1,27 +1,28 @@
- {
- 	"profile": {
- 		"name": "Y-Foundry DAO",
+{
+    "name": "Y-Foundry DAO",
         "description": "Propose. Vote. Build.",
+        "disclosureDate": "2023-07-04T00:00:00Z",
         "tags": [
-            "DAO",
-            "defi",
-            "nft",
-            "cross-chain",
-            "infrastructure"
+            "dao",
+            "tooling_dao",
+            "community_group",
+            "real_world",
+            "social",
+            "reputation",
+            "bounty"
         ],
- 		"platforms": {
+        "platforms": {
             "website": "https://yfoundry.io",
- 			"email": "",
- 			"keybase": "",
- 			"instagram": "",
- 			"twitter": "@YFoundryDAO",
- 			"discord": "discord.yfoundry.io",
- 			"telegram": "telegram.yfoundry.io",
- 			"source": "source.yfoundry.io",
+            "email": "",
+            "keybase": "",
+            "instagram": "",
+            "twitter": "@YFoundryDAO",
+            "discord": "discord.yfoundry.io",
+            "telegram": "telegram.yfoundry.io",
+            "source": "source.yfoundry.io",
             "brand": "brand.yfoundry.io"
- 		},
-
-         "logo_URIs": {
+        },
+        "logos": {
             "png": "https://raw.githubusercontent.com/Y-Foundry-Dao/brand-assets/main/contract/juno-1/cw20-yfd.png",
             "svg": "https://raw.githubusercontent.com/Y-Foundry-Dao/brand-assets/main/contract/juno-1/cw20-yfd.svg"
         },
@@ -29,8 +30,16 @@
             {
                 "disclaimers": [
                     {
-                        "disclaimer": "",
+                        "url": "",
                         "type": "general"
+                    },
+                    {
+                        "url": "https://github.com/Y-Foundry-Dao/yfd-docs/edit/main/docs/_info/disclaimer.md#risk",
+                        "type": "risk"
+                    },
+                    {
+                        "url": "https://github.com/Y-Foundry-Dao/yfd-docs/edit/main/docs/_info/disclaimer.md#georestrictions",
+                        "type": "georestriction"
                     }
                 ],
                 "audits": [
@@ -40,25 +49,74 @@
                         "url": "https://github.com/Y-Foundry-Dao/audits-public/blob/04de3a84efb34a913b32dcc1be7b1852baadb948/Y-Foundry%20DAO%20-%20YFD%20Contracts%20-%20Audit%20Report%20v1.0%20.pdf"
                     }
                 ],
-                "georestrictions": [
-                    {
-                        "Cuba": "CU",
-                        "Iran": "IR",
-                        "North Korea": "KP",
-                        "Syria": "SY",
-                        "Venezuela": "VE",
-                        "Russia": "RU",
-                        "Zimbabwe": "ZW",
-                        "Sudan": "SD",
-                        "American Samoa": "AS",
-                        "Guam": "GU",
-                        "Northern Mariana Islands": "MP",
-                        "Puerto Rico": "PR",
-                        "U.S. Virgin Islands": "VI"
-                      }
-                ]
-            }
-        ],
+            "georestrictions": [
+                {
+                    "enabled": true,
+                    "blacklist": [
+                        {
+                            "name": "Cuba",
+                            "code": "CU"
+                        },
+                        {
+                            "name": "Iran",
+                            "code": "IR"
+                        },
+                        {
+                            "name": "North Korea",
+                            "code": "KP"
+                        },
+                        {
+                            "name": "Crimea",
+                            "code": "XK"
+                        },
+                        {
+                            "name": "Syria",
+                            "code": "SY"
+                        },
+                        {
+                            "name": "Sudan",
+                            "code": "SD"
+                        },
+                        {
+                            "name": "Zimbabwe",
+                            "code": "ZW"
+                        },
+                        {
+                            "name": "Venezuela",
+                            "code": "VE"
+                        },
+                        {
+                            "name": "Russia",
+                            "code": "RU"
+                        },
+                        {
+                            "name": "United States",
+                            "code": "US"
+                        },
+                        {
+                            "name": "Puerto Rico",
+                            "code": "PR"
+                        },
+                        {
+                            "name": "American Samoa",
+                            "code": "AS"
+                        },
+                        {
+                            "name": "Guam",
+                            "code": "GU"
+                        },
+                        {
+                            "name": "Northern Mariana Islands",
+                            "code": "MP"
+                        },
+                        {
+                            "name": "U.S. Virgin Islands",
+                            "code": "VI"
+                        }
+                    ],
+                    "whitelist": []
+                    }]
+            }],
         "assets": [
             {
                 "name": "YFD CW20 Token",
@@ -168,14 +226,13 @@
                 ]
             }
         ],
-        "blockchain": [
-            { "cosmos:juno-1": [
-                { "contracts": [
-                    {
-                    }
-                ] }
-            ] }
-        ]
-    }
+    "blockchain": 
+    [{ 
+        "cosmos:juno-1": [{ 
+            "contracts": [
+                {
+                }
+            ] 
+        }]
+    }]
 }
-    

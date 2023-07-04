@@ -1,0 +1,58 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/Crypto-Disclosure/disclosures/disclosure.schema.json",
+    "title": "Crypto Disclosure",
+    "description": "A means to distribute information about a cryptocurrency project.",
+    "type": "object",
+    "properties": {
+      "name": {
+        "description": "The name of the project being disclosed.",
+        "type": "string"
+      },
+      "description": {
+        "description": "A description of the project.",
+        "type": "string"
+      },
+      "disclosureDate": {
+        "description": "The date of the project disclosure validity",
+        "type": "string",
+        "format": "date-time"
+      },
+      "tags": {
+        "description": "Tags to help categorize the project being disclosed.",
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 0,
+        "uniqueItems": true
+      }
+    },
+    "platforms": {
+      "description": "Platforms the project uses to communicate or share information.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "The name of the platform.",
+            "type": "string"
+          },
+          "url": {
+            "description": "Link to Platform Account or Address.",
+            "type": "string",
+          }
+        },
+        "uniqueItems": true,
+        "required": [
+          "name",
+          "url"
+        ]
+      }
+    },
+    "required": [
+      "disclosureName",
+      "disclosureDescription",
+      "disclosureDate"
+    ]
+}

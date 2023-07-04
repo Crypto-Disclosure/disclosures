@@ -1,10 +1,12 @@
 # disclosures
+
 Disclosure Data Repository for Crypto and Blockchain related projects
 
 ## Purpose
+
 To provide a centralized location for crypto-related projects to make publicly accessible general, technical, and asset information available using a standardized JSON data schema
 
-## 
+##
 
 Ideas for information to include:
 
@@ -28,3 +30,14 @@ Ideas for information to include:
 18. Security Measures: Describe the project's security measures, including audits, smart contract reviews, bug bounty programs, and any other steps taken to ensure the safety of users' funds.
 19. Risks and Disclaimers: Highlight potential risks associated with the project, including market risks, regulatory risks, technological risks, and any other pertinent information.
 20. Contact Information: Provide contact details or support channels for users to reach out with questions, concerns, or inquiries.
+
+## Technical Considerations
+
+This project uses JSON Schema to define the data structure for the disclosure data. The schema is located in the `schema` directory. The schema is based on the [JSON Schema 2020-12](https://json-schema.org/specification-links.html#2020-12) specification.
+
+### Understanding the Schema
+
+    Optional schema items can be added here using the information available here:
+    [https://json-schema.org/understanding-json-schema/](https://json-schema.org/understanding-json-schema/)
+
+## Contributing
