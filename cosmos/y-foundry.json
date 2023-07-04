@@ -1,0 +1,84 @@
+ {
+ 	"profile": {
+ 		"name": "Y-Foundry DAO",
+        "description": "Propose. Vote. Build.",
+ 		"platforms": {
+            "website": "https://yfoundry.io",
+ 			"email": "",
+ 			"keybase": "",
+ 			"instagram": "",
+ 			"twitter": "@YFoundryDAO",
+ 			"discord": "discord.yfoundry.io",
+ 			"telegram": "telegram.yfoundry.io",
+ 			"source": "source.yfoundry.io"
+ 		},
+         "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/yfd.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/yfd.svg"
+        },
+        "disclaimers": [
+            {
+                "disclaimer": "",
+                "type": "general"
+            }
+        ],
+        "advisors": [
+            {
+                "Name": "None",
+                "Address": "None",
+                "Allocation": [
+                    {
+                        "denom": "yfd",
+                        "amount": 0
+                    }
+                ]
+            }
+        ],
+        "contributors": [
+            {
+                "Name": "None",
+                "Address": "None",
+                "Allocation": [
+                    {
+                        "denom": "yfd",
+                        "amount": 0
+                    }
+                ]
+            }
+        ],
+        "backers": [
+            {
+                "Name": "Backer 1",
+                "Address": "None",
+                "Allocation": [
+                    {
+                        "denom": "yfd",
+                        "amount": 0,
+                        "vesting": [
+                            {
+                                "start_time": "2021-01-01T00:00:00Z",
+                                "end_time": "2022-01-01T00:00:00Z",
+                                "cliff_time": "2021-01-01T00:00:00Z",
+                                "cliff_amount": 0,
+                                "rate": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+ 	},
+    "assets": [
+        {
+            "cosmos": [
+                {
+                    "symbol": "yfd",
+                    "chain-registry": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/assetlist.json",
+                    "supply": 2000000000,
+                    "mintable": false,
+                    "inflationary": false,
+                }
+            ]
+        }
+    ]
+}
