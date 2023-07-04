@@ -1,6 +1,8 @@
 # disclosures
 Disclosure Repository for Crypto and Blockchain related projects
 
+Ideas for information to include:
+
 1. Project Name: The name of the crypto project.
 2. Project Description: A brief overview of the project's goals, objectives, and purpose.
 3. Token Name: The name of the project's token.
@@ -21,8 +23,3 @@ Disclosure Repository for Crypto and Blockchain related projects
 18. Security Measures: Describe the project's security measures, including audits, smart contract reviews, bug bounty programs, and any other steps taken to ensure the safety of users' funds.
 19. Risks and Disclaimers: Highlight potential risks associated with the project, including market risks, regulatory risks, technological risks, and any other pertinent information.
 20. Contact Information: Provide contact details or support channels for users to reach out with questions, concerns, or inquiries.
-10 seems redundant a bit but let me know
-15 might not be necessary
-16 might not be necessary (or maybe it is good to see that there is something in mind beyond a token or NFT launch)
-17 include or not include?
-18 might be redundant with an audit or maybe easily referencing it all here is good - link back to the audit
